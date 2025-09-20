@@ -1,43 +1,62 @@
-# Address_Book
-The Address Book project is a simple contact management system that lets users add, view, search, update, and delete contact details like name, phone, email, and address. Built using concepts like arrays, structures, and file handling, it helps in learning data storage, retrieval, and real-world application development.
+# 📒 Address Book in C
 
-📒 Address Book Management System
-The Address Book Management System is a simple project developed in C language.
-It allows users to manage contact details in an easy and efficient way through a console-based interface.
-The system uses file handling in C to store all contacts permanently, so that data is not lost when the program is closed.
+A simple **Address Book Application** built in C to manage contacts.  
+This project was developed as part of my learning journey at **Emertxe Information Technologies, Bangalore**.
 
-📌 This project is useful for understanding concepts of
--> C programming
-->File handling (reading and writing data into files)
-->Structures in C
-->Modular programming
-->Menu driven program design
+---
 
-✨ Features
-->➕ Add new contacts with details such as Name, Phone Number, Email, and Address
-->📋 View all saved contacts in a structured format
-->🔍 Search for contacts by Name or Phone Number
-->✏️ Update the details of existing contacts
-->🗑️ Delete a contact from the address book
-->💾 Store contacts permanently in a file so they are available even after the program is closed
+## 🚀 Features
+- ➕ Add new contacts  
+- ✏️ Edit existing contacts  
+- 🔍 Search for contacts  
+- ❌ Delete contacts  
+- 💾 Save and load contact information using file handling  
 
-💻 How the System Works
+---
 
-The program displays a main menu with different options
+## 🛠️ Concepts Used
+- Structures (`struct`) for storing contact details  
+- File Handling (`fopen`, `fwrite`, `fread`, etc.)  
+- Pointers and dynamic memory concepts  
+- Input validation and error handling  
 
-The user selects an option such as Add, View, Search, Update, or Delete
+---
 
-Based on the choice, the program executes the required function
+## 📂 File Structure
+📦 Address_Book
+┣ 📜 main.c # Source code
+┣ 📜 contacts.txt # File to store contacts
+┗ 📜 README.md # Project documentation
 
-All data is saved in a file called contacts.dat for future use
+---
 
-🎯 Educational Value
+## ▶️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sumit23450890/Address_Book.git
+2.Compile the program:
+  gcc main.c -o addressbook
+3.Run the executable:
+  ./addressbook 
+  📟 Sample Output (Menu)
+===== Address Book Application =====
+1. Create Contact
+2. Edit Contact
+3. Search Contact
+4. Delete Contact
+5. Display All Contacts
+6. Save & Exit
+------------------------------------
+  
+✨ Future Enhancements
+ 1.Add sorting of contacts (by name, phone, etc.)
+ 2.Implement better error handling
+ 3.Add user-friendly menu-driven interface with colors
+📌 Author
 
-This project is mainly created for learning purposes. It helps beginners in C programming to:
--> Practice file operations like fopen, fwrite, fread, and fclose
-->Understand how to use structures to store multiple fields for a contact
-->Learn modular programming by separating code into multiple files
-->Gain experience in building real-life applications using C
+👤 Sumit Kumar Pradhan
 
-👨‍💻 Author
-Sumit Kumar Pradhan
+🌐 [LinkedIn profile](https://www.linkedin.com/in/sumit-kumar-pradhan-46a34a275/)
+
+💻 Learning Embedded Systems @ Emertxe, Bangalore
+
